@@ -20,13 +20,13 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-grand_total = 0
+
 index = 0
 while index < nds.length do
-      grand_total += nds[index]
+      result << nds[index]
       index += 1
     end
  
 end
-  grand_total
+  result
 end
